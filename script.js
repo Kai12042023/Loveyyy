@@ -41,11 +41,11 @@ function validateConfig() {
 // Default color values
 function getDefaultColor(key) {
     const defaults = {
-        backgroundStart: "#ffafbd",
-        backgroundEnd: "#ffc3a0",
-        buttonBackground: "#ff6b6b",
-        buttonHover: "#ff8787",
-        textColor: "#ff4757"
+        backgroundStart: "#caa1ff",
+        backgroundEnd: "#a0a2ff",
+        buttonBackground: "#6b6dff",
+        buttonHover: "#686ff7",
+        textColor: "#9039fa"
     };
     return defaults[key];
 }
@@ -98,10 +98,10 @@ function createFloatingElements() {
     });
 
     // Create bears
-    config.floatingEmojis.bears.forEach(bear => {
+    config.floatingEmojis.flowers.forEach(flower => {
         const div = document.createElement('div');
-        div.className = 'bear';
-        div.innerHTML = bear;
+        div.className = 'flower';
+        div.innerHTML = flower;
         setRandomPosition(div);
         container.appendChild(div);
     });
