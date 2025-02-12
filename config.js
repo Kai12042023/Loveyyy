@@ -42,7 +42,7 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: ":00 You love me that much?? 🥹",  // Shows when they go past 5000%
+        extreme: ":00 You love me that much??",  // Shows when they go past 5000%
         high: "Mwehheheh you love meee~",              // Shows when they go past 1000%
         normal: "Awww, so you DO love me >:3"                           // Shows when they go past 100%
     },
@@ -51,17 +51,17 @@ const CONFIG = {
     celebration: {
         title: "YAYYYYY! I'm the luckiest person in the worldd~ mwehhee",
         message: "Now I give you many kissy and cuddlessss",
-        emojis: "💖💝💋❤️💕🫂💏💍"  // These will bounce around
+        emojis: "💖💝💋❤️💕💏💍"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
+        backgroundStart: "#deafff",      // Gradient start (try pastel colors for a soft look)
         backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        buttonBackground: "#9f6bff",     // Button color (should stand out against the background)
+        buttonHover: "#686ff7",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#9039fa"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
